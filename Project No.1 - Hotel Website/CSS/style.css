@@ -37,6 +37,29 @@ p {
   padding: 0 20px;
 }
 
+.text-primary {
+  color: #f7c88a;
+}
+
+.lead {
+  font-size: 20px;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 18px;
+  color: #000000;
+  background: #ffffff;
+  padding: 13px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #f7c88a;
+}
+
 /* navbar */
 #navbar {
   background: #000000;
@@ -72,4 +95,33 @@ p {
 #navbar ul li a.current {
   background: #444;
   color: #f7c88a;
+}
+
+/* Showcase */
+#showcase {
+  background: url("../Images/1.jpg") no-repeat center center/cover;
+  height: 600px;
+  /* height: 100vh; */
+}
+
+#showcase .showcase-overlay {
+  background: rgba(0, 0, 0, 0.6);
+  height: 100%;
+  width: 100%;
+}
+
+#showcase .showcase-content {
+  color: #ffffff;
+  text-align: center;
+  padding-top: 170px;
+}
+
+#showcase .showcase-content h1 {
+  font-size: 60px;
+  line-height: 1.4em;
+}
+
+#showcase .showcase-content p {
+  padding-bottom: 20px;
+  line-height: 1.7em;
 }
