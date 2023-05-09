@@ -60,6 +60,25 @@ p {
   background: #f7c88a;
 }
 
+.bg-dark {
+  background: #000000;
+  color: #ffffff;
+}
+
+.bg-light {
+  background: #ffffff;
+  color: #000000;
+}
+
+.bg-primary {
+  background: #f7c88a;
+  color: #000000;
+}
+
+.clr {
+  clear: both;
+}
+
 /* navbar */
 #navbar {
   background: #000000;
@@ -124,4 +143,49 @@ p {
 #showcase .showcase-content p {
   padding-bottom: 20px;
   line-height: 1.7em;
+}
+
+/* Home Info */
+#home-info {
+  height: 500px;
+}
+
+#home-info .info-img {
+  float: right;
+  width: 50%;
+  background: url("../Images/6.jpg") no-repeat center center/cover;
+  min-height: 100%;
+}
+
+#home-info .info-content {
+  float: left;
+  width: 50%;
+  height: 100%;
+  text-align: justify;
+  padding: 50px 30px;
+  overflow: hidden;
+}
+
+#home-info .info-content p {
+  padding-bottom: 25px;
+}
+
+/* Features */
+.box {
+  float: left;
+  width: 33.3%;
+  padding: 50px;
+  text-align: center;
+}
+
+.box i {
+  margin-bottom: 10px;
+}
+
+/* Footer */
+#main-footer {
+  text-align: center;
+  background: #000000;
+  color: #ffffff;
+  padding: 15px;
 }
