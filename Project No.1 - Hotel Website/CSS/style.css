@@ -60,6 +60,22 @@ p {
   background: #f7c88a;
 }
 
+.btn-contact {
+  display: inline-block;
+  font-size: 18px;
+  color: #ffffff;
+  background: #000000;
+  padding: 13px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-contact:hover {
+  background: #f7c88a;
+  color: #000000;
+}
+
 .bg-dark {
   background: #000000;
   color: #ffffff;
@@ -107,7 +123,7 @@ p {
   color: #ffffff;
 }
 
-#navbar h1 {
+#navbar .logo {
   float: left;
   padding-top: 20px;
 }
@@ -226,8 +242,9 @@ p {
 
 /* Testimonials */
 #testimonials {
-  height: 600px;
+  /* height: 600px; */
   /* height: 100vh; */
+  height: 100%;
   background: url("../Images/5.jpg") no-repeat center center/cover;
   padding-top: 50px;
 }
@@ -250,6 +267,35 @@ p {
   border-radius: 50%;
   float: left;
   margin-right: 20px;
+}
+
+/* Contact Form */
+#contact-form .form-group {
+  margin-bottom: 20px;
+}
+
+#contact-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#contact-form input,
+#contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#contact-form input:focus,
+#contact-form textarea:focus {
+  outline: none;
+  border-color: #f7c88a;
+}
+
+button {
+  font-family: "Poppins", sans-serif;
+  margin-top: 10px;
 }
 
 /* Footer */
